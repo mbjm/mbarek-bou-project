@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        .red{
+            background-color:red;
+        }
+        h1{
+            color:white;
+        }
+        body {
+            background-color:green;
+        }
+        h2{
+            color:blue;
+        }
+        h4{
+            color:blue;
+        }
+        #mak{
+            background-color:red;
+        }
+        h3{color:white;}
+        h5{color:blue;}
+        #or{background-color:grey;}
+        #grey{background-color:grey;}
+        </style>
+    </head>
+    <body>
+       
+        <h1 class="red">Recipe Book</h1>
+        
+        <h2>Table of Contents:</h2>
+        
+        <ol>
+            <li><a href="?"></a>🍕Margherita Pizza</li>
+            <li><a href="?"></a>🍰Chocolate Cake</li>
+            <li><a href="?"></a>🥗 Caesar Salad</li>
+        </ol>
+        
+        <h2 id="orange">Recipe Name</h2>
+        <ol>
+            <li>
+                <h3 id="mak">Margherita Pizza</h3>
+            </li>
+        </ol>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Pizza_Margherita_stu_spivack.jpg/1200px-Pizza_Margherita_stu_spivack.jpg" alt="Margherita Pizza" height="200">
+        
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>flour</td>
+                 <td> 2 cups</td>
+            </tr>
+            <tr>
+                <td>Tomato Sauce</td>
+                <td>1/2 cup</td>
+            </tr>
+            <tr>
+                <td>Mozzarella Cheese</td>
+                <td>1 cup</td>
+            </tr>
+            <tr>
+                <td>Olive Oil</td>
+                <td>2 tablespoons</td>
+            </tr>
+            <tr>
+                <td>Fresh Basil Leaves</td>
+                <td>A handful</td>
+            </tr>
+            
+            </tbody>
+        </table>
+        <h4 id="grey">Details</h4>
+        
+        <p><strong>Prep Time</strong> 20 minutes<br><strong>Cooking Time</strong>15 minutes <br><strong>Serves</strong>2 people <br>
+        <strong>Cooking Temperature</strong>375°F (190°C) <br><strong>Equipment Needed:</strong>Mixing bowl, rolling pin, baking tray, oven <br>
+</p>
+<h5 id="or">Instructions</h5>
+<ol>
+    <li>Preheat your oven to 375°F (190°C)</li>
+     <li>Mix the flour and water in a large mixing bowl to create the dough. Knead until smooth.</li>
+      <li>Roll out the dough on a floured surface into a round shape.</li>
+       <li>Spread the tomato sauce evenly over the dough.</li>
+        <li>Add mozzarella cheese on top of the sauce.</li>
+         <li>Drizzle a little olive oil over the pizza.</li>
+          <li>Bake the pizza in the oven for about 15 minutes, or until the crust is golden and the cheese is melted.</li>
+           <li>Once baked, add fresh basil leaves on top for extra flavor.</li>
+    
+</ol>
+        
+    
+    </body>
+</html>
